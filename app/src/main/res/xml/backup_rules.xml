@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- OAuth-токен нельзя переносить в облачный бэкап. -->
+    <exclude domain="sharedpref" path="yandex_oauth.xml" />
+</full-backup-content>
